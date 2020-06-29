@@ -29,6 +29,15 @@ class TravelStrategyByCar implements TravelStrategy{
     }
 }
 
+class TravelStrateByBus implements TravelStrategy{
+
+    @Override
+    public void travelMode() {
+        System.out.println("乘坐公共汽车去");
+    }
+}
+
+
 class ContextStrategy{
     private TravelStrategy travelStrategy;
 
