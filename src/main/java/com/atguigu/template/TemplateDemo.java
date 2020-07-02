@@ -58,7 +58,6 @@ class TakeMoney extends AbstractTemplate{
 
 public class TemplateDemo {
     public static void main(String[] args) {
-
         AbstractTemplate template=new SaveMoney();
         template.templateMethod();
     }
